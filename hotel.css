@@ -1,0 +1,82 @@
+
+body{
+
+    background-color:wheat;
+    margin-left: 30px;
+    border-inline:10px ;
+    background: url("../css/images 000.jpg");
+}
+header{
+    padding-bottom:0;
+    color:whitesmoke;
+    text-transform: uppercase;
+    text-shadow: 30px;
+    font-size: 20px;
+    font-family: 'Rampart one', cursive;
+
+}
+h1{
+    text-shadow: 2px 2px;
+    box-shadow: whitesmoke;
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+hr{
+    color:turquoise;
+}
+h2{
+    text-align: center;
+}
+p{
+    border-color: black;
+    border-style: solid;
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+}
+img{
+    height:250px;
+    width:250px;
+    border-color:coral;
+    padding-width:30px;
+    border-top:10px;
+    padding-left: 30px;
+}
+ul{
+    margin-top: 2px;  
+    padding-top: 2px;
+    list-style: none;
+    background-color: blue;
+    height: 50px;
+    width: 700px;
+}
+li{
+    float:left;
+    border-right:1px bisque
+}
+a{
+    display: block;
+    padding:1px 5px 5px 5px;
+    color:crimson;
+}
+main header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#firstbox{
+    display: flex;
+    flex-direction: row;
+    border-color: darkslategray;
+    border-width: 2px;
+}
+#secondbox{
+    border-color: red;
+    border-style: solid;
+    padding: 15px;
+    width: 700px;
+    height: 200px;
+}
+
+
